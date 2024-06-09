@@ -17,7 +17,7 @@ function App() {
         <li href="#">Contact</li>
       </ul>
 
-      <button>Login</button>
+      <button className='btn'>Login</button>
     </nav>
    </div>
   )
