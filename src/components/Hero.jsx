@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
 
     <div className="hero-button">
-        <button className="btn">Shop Now</button>
+        <button className="btn shop-btn">Shop Now</button>
         <button className="category-btn">Category</button>
     </div>
       <div className="last-text">
