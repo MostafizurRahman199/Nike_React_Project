@@ -1,24 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div>
-    <nav>
-      <div className='logo'>
-      <img src="/brand_logo.png" alt="Nike logo" />
-      </div>
-      <ul>
-        <li href="#">Menu</li>
-        <li href="#">Location</li>
-        <li href="#">About</li>
-        <li href="#">Contact</li>
-      </ul>
-
-      <button className='btn'>Login</button>
-    </nav>
+   <Navigation></Navigation>
+   <Hero></Hero>
    </div>
   )
 }
